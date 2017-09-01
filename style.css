@@ -1,0 +1,87 @@
+
+	.box{
+		border: 1px solid #B0BEC5;
+		border-radius: 10px;
+		height: 50em;
+		max-height: 500px;
+		padding: 1em;
+		
+		max-width: 500px;
+		margin: 0 auto;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	.box .mensagens{		
+		overflow: hidden;
+		overflow-y: auto;
+		height: 100%;
+	}
+	
+	.box .mensagens .area{
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+		min-height: 100%;
+	}
+	
+	.box .mensagens .texto{
+		border-radius: 10px;
+		box-sizing: border-box;
+		padding: .65em;
+		margin-top: .5em;
+		
+	}
+	
+	.box .mensagens .texto:first-child{
+		margin-top: 0;
+	}
+	
+	.box .mensagens .texto.usuario{
+		background-color: #ECEFF1;
+		color: #576a75;
+		margin-left: 30%;
+	}
+	
+	.box .mensagens .texto.chatbot{
+		background-color: #3366cc;
+		color: #ebf0fa;
+		font-weight: bold;
+		margin-right: 30%;
+		
+	}
+	
+	.box form.mensagem{
+		padding: 0;
+		margin-top: 1em;
+	}
+	
+	.box form.mensagem input{
+		border: 2px solid #476A7B;
+		border-radius: 10px;
+		padding: .5em .8em;
+		font-size: 16px;
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	
+	.box form.mensagem input:focus{
+		border: 2px solid #1A237E;
+		outline: none;
+	}
+	
+	.box form.mensagem button{
+		background-color: #3F51B5;
+		border: none;
+		border-radius: 10px;
+		display: block;
+		padding: .5em 1em;
+		width: 100%;
+		font-size: 16px;
+		color: #ffffff;
+		margin-top: .5em;
+	}
+	
